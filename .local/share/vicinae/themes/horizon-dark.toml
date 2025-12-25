@@ -1,0 +1,44 @@
+[meta]
+version = 1
+name = "Horizon Dark"
+description = "Horizon Dark theme for Vicinae"
+variant = "dark"
+# inherits = "vicinae-dark"
+
+[colors.accents]
+red = "#E95678"
+orange = "#F09383"
+yellow = "#FAC29A"
+green = "#29D398"
+cyan = "#59E1E3"
+blue = "#26BBD9"
+magenta = "#EE64AE"
+purple = "#B877DB"
+
+[colors.core]
+background = "#1C1E26"
+secondary_background = "#232530"
+foreground = "#FDF0ED"
+accent = "colors.accents.red"
+border = "colors.accents.red"
+
+[colors.input]
+border_focus = "colors.accents.red"
+
+[colors.list.item.hover]
+background = "colors.core.secondary_background"
+foreground = "colors.core.foreground"
+
+[colors.list.item.selection]
+background = "colors.accents.red"
+foreground = "colors.core.foreground"
+secondary_background = "colors.core.secondary_background"
+secondary_foreground = "colors.core.foreground"
+
+[colors.loading]
+bar = "colors.accents.red"
+spinner = "colors.accents.red"
+
+[colors.text.links]
+default = "colors.accents.cyan"
+visited = "colors.accents.magenta"

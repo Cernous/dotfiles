@@ -1,0 +1,92 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+  	"width": 28,
+  	"padding": {
+  		"top": 5,
+  		"left": 4,
+  	},
+  },
+  "display": {
+      "separator": "\t -> ",
+      "constants": [
+          "──────────────────────────────"
+      ]
+  },
+  "modules": [
+  	"break",
+  	"break",
+  	"break",
+  	"break",
+  	{
+  	    "type": "custom",
+  	    "format": "┌{$1}{$1}┐",
+  	    "outputColor": "39"
+  	},
+  	{
+  	    "type": "title",
+  	    "format": "{#31} {1}",
+  	    "keyWidth": 10
+  	},
+  	{
+  	    "type": "custom",
+  	    "format": "└{$1}{$1}┘",
+  	    "outputColor": "39"
+  	},
+  	{
+  	    "type": "custom",
+  	    "format": " {#90}  {#31}  {#32}  {#33}  {#34}  {#35}  {#36}  {#37}  {#38}  {#39}       {#38}  {#37}  {#36}  {#35}  {#34}  {#33}  {#32}  {#31}  {#90}"
+  	},
+  	{
+  	    "type": "custom",
+  	    "format": "┌{$1}{$1}┐",
+  	    "outputColor": "39"
+  	},
+	{
+       // draw borders first to make colors of left and right border consistant
+       "key": "{#31}🖳 device",
+       "type": "title",
+       "format": "{2}"
+	},
+    {
+        "key": "{#31}󰟾 distro",
+        "type": "os"
+    },
+    {
+        "key": "{#31} kernel",
+        "type": "kernel"
+    },
+    {
+        "key": "{#31}󰏖 packages",
+        "type": "packages",
+    },
+    {
+        "key": "{#31} shell",
+        "type": "shell"
+    },
+    {
+        "key": "{#31}󰍛 cpu     ",
+        "type": "cpu",
+        "showPeCoreCount": true,
+        "format": "{1}"
+    },
+    {
+        "key": "{#31}󰍛 gpu     ",
+        "type": "gpu"
+    },
+    {
+        "key": "{#31} memory",
+        "type": "memory"
+    },
+    {
+        "type": "custom",
+        "format": "└{$1}{$1}┘",
+        "outputColor": "39"
+    },
+    // {
+	   // 	"key": " colors",
+	   // 	"type":"colors",
+	   // 	"symbol": "circle"
+    // }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+	"$schema": "https://opencode.ai/config.json",
+	"theme": "horizon-dark",
+	"tui": {
+		"scroll_speed": 3,
+		"scroll_acceleration": {
+			"enabled": true
+		}
+	},
+	"tools": {
+		"webfetch": true,
+		
+		"edit": true,
+		"write": true,
+		"read": true,
+		"patch": true,
+		
+		"bash": true,
+		"grep": true,
+		"glob": true,
+		"list": true,
+
+		"todowrite": true,
+		"todoread": true,
+		
+	},
+	"permission": {
+		"write": "ask",
+		"edit": "ask",
+		"bash": "ask",
+		"webfetch": "allow",
+		"doom_loop": "ask",
+		"external_directory": "deny"
+	},
+	"provider": {
+		"llama.cpp":{
+			"npm": "@ai-sdk/openai-compatible",
+			"name": "llamacpp-vulkan (Local)",
+			"options": {
+				"baseURL": "http://127.0.0.1:8080/v1"
+			},
+			"models": {
+				"Qwen3:4B": {
+					"name": "Qwen3: 4B(Local)"
+				}
+			} 
+		}
+	}
+}

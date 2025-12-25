@@ -1,0 +1,25 @@
+{
+    "closeOnFocusLoss": false,
+    "considerPreedit": false,
+    "faviconService": "twenty",
+    "font": {
+        "normal": "MesloLGL Nerd Font Mono",
+        "size": 12
+    },
+    "keybinding": "default",
+    "keybinds": {
+    },
+    "popToRootOnClose": false,
+    "rootSearch": {
+        "searchFiles": false
+    },
+    "theme": {
+        "iconTheme": "Tela circle light",
+        "name": "horizon-dark"
+    },
+    "window": {
+        "csd": true,
+        "opacity": 1,
+        "rounding": 10
+    }
+}

@@ -1,0 +1,224 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "horizon0": "#1C1E26",
+    "horizon1": "#232530",
+    "horizon2": "#2E303E",
+    "horizon3": "#3D3F48",
+    "horizon4": "#DFD9D6",
+    "horizon5": "#FDF0ED",
+    "horizon6": "#FFFFFF",
+    "horizon7": "#59E3E3",
+    "horizon8": "#26BBD9",
+    "horizon9": "#3FC6DE",
+    "horizon10": "#6BE6E6",
+    "horizon11": "#E95678",
+    "horizon12": "#EC6A88",
+    "horizon13": "#FAB795",
+    "horizon14": "#FBC3A7",
+    "horizon15": "#3FDAA4",
+    "horizon16": "#B877DB"
+  },
+  "theme": {
+    "primary": {
+      "dark": "horizon11",
+      "light": "horizon11"
+    },
+    "secondary": {
+      "dark": "horizon11",
+      "light": "horizon11"
+    },
+    "accent": {
+      "dark": "horizon11",
+      "light": "horizon11"
+    },
+    "error": {
+      "dark": "horizon11",
+      "light": "horizon11"
+    },
+    "warning": {
+      "dark": "horizon12",
+      "light": "horizon12"
+    },
+    "success": {
+      "dark": "horizon15",
+      "light": "horizon15"
+    },
+    "info": {
+      "dark": "horizon8",
+      "light": "horizon10"
+    },
+    "text": {
+      "dark": "horizon4",
+      "light": "horizon0"
+    },
+    "textMuted": {
+      "dark": "horizon3",
+      "light": "horizon1"
+    },
+    "background": {
+      "dark": "horizon0",
+      "light": "horizon6"
+    },
+    "backgroundPanel": {
+      "dark": "horizon1",
+      "light": "horizon5"
+    },
+    "backgroundElement": {
+      "dark": "horizon1",
+      "light": "horizon4"
+    },
+    "border": {
+      "dark": "horizon2",
+      "light": "horizon3"
+    },
+    "borderActive": {
+      "dark": "horizon3",
+      "light": "horizon2"
+    },
+    "borderSubtle": {
+      "dark": "horizon2",
+      "light": "horizon3"
+    },
+    "diffAdded": {
+      "dark": "horizon15",
+      "light": "horizon15"
+    },
+    "diffRemoved": {
+      "dark": "horizon11",
+      "light": "horizon11"
+    },
+    "diffContext": {
+      "dark": "horizon3",
+      "light": "horizon3"
+    },
+    "diffHunkHeader": {
+      "dark": "horizon3",
+      "light": "horizon3"
+    },
+    "diffHighlightAdded": {
+      "dark": "horizon15",
+      "light": "horizon15"
+    },
+    "diffHighlightRemoved": {
+      "dark": "horizon11",
+      "light": "horizon11"
+    },
+    "diffAddedBg": {
+      "dark": "#232530",
+      "light": "#FDF0ED"
+    },
+    "diffRemovedBg": {
+      "dark": "#232530",
+      "light": "#FDF0ED"
+    },
+    "diffContextBg": {
+      "dark": "horizon1",
+      "light": "horizon5"
+    },
+    "diffLineNumber": {
+      "dark": "horizon2",
+      "light": "horizon4"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "#232530",
+      "light": "#FDF0ED"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "#232530",
+      "light": "#FDF0ED"
+    },
+    "markdownText": {
+      "dark": "horizon4",
+      "light": "horizon0"
+    },
+    "markdownHeading": {
+      "dark": "horizon8",
+      "light": "horizon10"
+    },
+    "markdownLink": {
+      "dark": "horizon9",
+      "light": "horizon9"
+    },
+    "markdownLinkText": {
+      "dark": "horizon7",
+      "light": "horizon7"
+    },
+    "markdownCode": {
+      "dark": "horizon15",
+      "light": "horizon15"
+    },
+    "markdownBlockQuote": {
+      "dark": "horizon3",
+      "light": "horizon3"
+    },
+    "markdownEmph": {
+      "dark": "horizon12",
+      "light": "horizon12"
+    },
+    "markdownStrong": {
+      "dark": "horizon13",
+      "light": "horizon13"
+    },
+    "markdownHorizontalRule": {
+      "dark": "horizon3",
+      "light": "horizon3"
+    },
+    "markdownListItem": {
+      "dark": "horizon8",
+      "light": "horizon10"
+    },
+    "markdownListEnumeration": {
+      "dark": "horizon7",
+      "light": "horizon7"
+    },
+    "markdownImage": {
+      "dark": "horizon9",
+      "light": "horizon9"
+    },
+    "markdownImageText": {
+      "dark": "horizon7",
+      "light": "horizon7"
+    },
+    "markdownCodeBlock": {
+      "dark": "horizon4",
+      "light": "horizon0"
+    },
+    "syntaxComment": {
+      "dark": "horizon3",
+      "light": "horizon3"
+    },
+    "syntaxKeyword": {
+      "dark": "horizon9",
+      "light": "horizon9"
+    },
+    "syntaxFunction": {
+      "dark": "horizon8",
+      "light": "horizon8"
+    },
+    "syntaxVariable": {
+      "dark": "horizon7",
+      "light": "horizon7"
+    },
+    "syntaxString": {
+      "dark": "horizon15",
+      "light": "horizon15"
+    },
+    "syntaxNumber": {
+      "dark": "horizon16",
+      "light": "horizon16"
+    },
+    "syntaxType": {
+      "dark": "horizon7",
+      "light": "horizon7"
+    },
+    "syntaxOperator": {
+      "dark": "horizon9",
+      "light": "horizon9"
+    },
+    "syntaxPunctuation": {
+      "dark": "horizon4",
+      "light": "horizon0"
+    }
+  }
+}
